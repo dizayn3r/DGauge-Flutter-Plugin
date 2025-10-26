@@ -1,0 +1,73 @@
+{
+  "macAddress": "D517FAD879D9",
+  "vehicleConfig": {
+    "axleConfiguration": "2x4x1",
+    "numberOfTires": 7,
+    "vehicleNumber": "HR55AC7825",
+    "tyreConfigurations": [
+      {
+        "tireNumber": 1,
+        "identifier": 1,
+        "tireSerialNumber": "H2153852924",
+        "treadCount": "3",
+        "pressureValue": 0,
+        "tireStatus": 0,
+        "temperatureValue": 0
+      },
+      {
+        "tireNumber": 2,
+        "identifier": 1,
+        "tireSerialNumber": "H2158843624",
+        "treadCount": "3",
+        "pressureValue": 0,
+        "tireStatus": 0,
+        "temperatureValue": 0
+      },
+      {
+        "tireNumber": 3,
+        "identifier": 1,
+        "tireSerialNumber": "H2125442223",
+        "treadCount": "3",
+        "pressureValue": 0,
+        "tireStatus": 0,
+        "temperatureValue": 0
+      },
+      {
+        "tireNumber": 4,
+        "identifier": 1,
+        "tireSerialNumber": "H2090403624",
+        "treadCount": "3",
+        "pressureValue": 0,
+        "tireStatus": 0,
+        "temperatureValue": 0
+      },
+      {
+        "tireNumber": 5,
+        "identifier": 1,
+        "tireSerialNumber": "H2213760524",
+        "treadCount": "3",
+        "pressureValue": 0,
+        "tireStatus": 0,
+        "temperatureValue": 0
+      },
+      {
+        "tireNumber": 6,
+        "identifier": 1,
+        "tireSerialNumber": "H2186881324",
+        "treadCount": "3",
+        "pressureValue": 0,
+        "tireStatus": 0,
+        "temperatureValue": 0
+      },
+      {
+        "tireNumber": 7,
+        "identifier": 1,
+        "tireSerialNumber": "H2236430525",
+        "treadCount": "3",
+        "pressureValue": 0,
+        "tireStatus": 0,
+        "temperatureValue": 0
+      }
+    ]
+  }
+}

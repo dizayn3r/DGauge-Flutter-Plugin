@@ -14,6 +14,13 @@ dependencies:
     path: ../
 
   cupertino_icons: ^1.0.8
+  fluttertoast: ^8.2.14
+  shared_preferences: ^2.5.3
+  flutter_bloc: ^9.1.1
+  qr_code_scanner_plus: ^2.0.12
+  equatable: ^2.0.7
+  permission_handler: ^12.0.1
+  logger: ^2.6.2
 
 dev_dependencies:
   integration_test:

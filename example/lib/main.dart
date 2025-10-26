@@ -1,57 +1,98 @@
+// lib/main.dart
+import 'dart:io';
+
 import 'package:dgauge_flutter/dgauge_flutter.dart';
+import 'package:dgauge_flutter_example/bloc/vehicle_cubit.dart';
 import 'package:flutter/material.dart';
-import 'dart:async';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:permission_handler/permission_handler.dart';
 
-import 'package:flutter/services.dart';
+import 'bloc/dgauge_cubit.dart';
+import 'screens/home_screen.dart';
 
-import 'tire_inspection_screen.dart';
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
 
-void main() {
+  // Request permissions before launching the app UI
+  await _ensurePermissions();
+
   runApp(const MyApp());
 }
 
-class MyApp extends StatefulWidget {
+/// Request runtime permissions needed for DGauge plugin
+/// - On Android 12+ we request bluetoothScan, bluetoothConnect (and bluetoothAdvertise if needed)
+/// - Also request location permission (ACCESS_FINE_LOCATION)
+Future<void> _ensurePermissions() async {
+  if (!Platform.isAndroid) {
+    // iOS permission flow not required for this plugin (or handled separately)
+    return;
+  }
+
+  // Build permission list to request
+  final List<Permission> permissionsToRequest = [];
+
+  // Common location permission required for BLE scanning on Android <=11 and sometimes needed by the SDK
+  permissionsToRequest.add(Permission.location);
+
+  // Try to include fine location explicitly if available
+  permissionsToRequest.add(Permission.locationWhenInUse);
+
+  // Bluetooth runtime permissions (Android 12+)
+  // permission_handler exposes these: bluetooth, bluetoothScan, bluetoothConnect, bluetoothAdvertise
+  // We include bluetooth for older versions and the splits for Android 12+
+  permissionsToRequest.add(Permission.bluetooth);
+  permissionsToRequest.add(Permission.bluetoothScan);
+  permissionsToRequest.add(Permission.bluetoothConnect);
+  permissionsToRequest.add(Permission.bluetoothAdvertise);
+
+  // Request them (duplicates/missing ones are ignored by the plugin)
+  final Map<Permission, PermissionStatus> statuses = await permissionsToRequest.request();
+
+  // Check for denied or permanently denied
+  final denied = statuses.entries.where((e) => e.value.isDenied).toList();
+  final permanentlyDenied = statuses.entries.where((e) => e.value.isPermanentlyDenied).toList();
+
+  if (denied.isNotEmpty) {
+    // Ask again politely (this will show system dialogs for those that can still be asked)
+    final retried = await denied.map((e) => e.key).toList().request();
+    // update permanentlyDenied check after retry
+    final stillPermanent = retried.entries.where((e) => e.value.isPermanentlyDenied).toList();
+    if (stillPermanent.isNotEmpty) {
+      // Open app settings so user can enable manually
+      await _showSettingsDialog();
+    }
+  } else if (permanentlyDenied.isNotEmpty) {
+    // If any permanently denied, kindly ask to open app settings
+    await _showSettingsDialog();
+  }
+}
+
+/// Ask user to open App Settings so they can enable permissions manually.
+/// This is called before the app UI is shown (so we use a simple native dialog)
+Future<void> _showSettingsDialog() async {
+  // Try to open app settings directly
+  final opened = await openAppSettings();
+  if (!opened) {
+    // If openAppSettings failed for some reason, we just return; user can manually enable permissions.
+    debugPrint("Please enable required permissions from app settings.");
+  }
+}
+
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown';
-
-  @override
-  void initState() {
-    super.initState();
-    initPlatformState();
-  }
-
-  // Platform messages are asynchronous, so we initialize in an async method.
-  Future<void> initPlatformState() async {
-    String platformVersion;
-    // Platform messages may fail, so we use a try/catch PlatformException.
-    // We also handle the message potentially returning null.
-    try {
-      platformVersion = await DGaugeFlutter.getPlatformVersion() ??
-          'Unknown platform version';
-    } on PlatformException {
-      platformVersion = 'Failed to get platform version.';
-    }
-
-    // If the widget was removed from the tree while the asynchronous platform
-    // message was in flight, we want to discard the reply rather than calling
-    // setState to update our non-existent appearance.
-    if (!mounted) return;
-
-    setState(() {
-      _platformVersion = platformVersion;
-    });
-  }
-
-  @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: TireInspectionScreen(),
+    // Provide DGaugeCubit to the app; VehicleScreen will call initialize() in its initState.
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider<DGaugeCubit>(create: (_) => DGaugeCubit(DGaugeFlutter())),
+        BlocProvider<VehicleCubit>(create: (_) => VehicleCubit()),
+      ],
+      child: const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: HomeScreen(),
+      ),
     );
   }
 }

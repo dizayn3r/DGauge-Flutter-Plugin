@@ -1,5 +1,5 @@
 name: dgauge_flutter
-description: "A new Flutter plugin project for DGuage SDK integration."
+description: "A new Flutter plugin project for DGauge SDK integration."
 version: 0.0.1
 homepage:
 
@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  logger: ^2.6.2
   plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
@@ -23,5 +24,5 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.dizayn3r.dgauge_flutter
+        package: com.applore.dgauge_flutter
         pluginClass: DGaugeFlutterPlugin

@@ -2,15 +2,15 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        flatDir {
-            dirs("$rootDir/libs")
-        }
-//        maven {
-//            url "https://jitpack.io"
-//            credentials {
-//                username "jp_7nm9vgpau70o93gs9tai5rics2"
-//            }
+//        flatDir {
+//            dirs("$rootDir/libs")
 //        }
+        maven {
+            url "https://jitpack.io"
+            credentials {
+                username "jp_7nm9vgpau70o93gs9tai5rics2"
+            }
+        }
     }
 }
 

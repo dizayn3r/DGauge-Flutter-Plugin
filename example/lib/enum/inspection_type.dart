@@ -1,0 +1,1 @@
+enum InspectionType { manual, dgauge }

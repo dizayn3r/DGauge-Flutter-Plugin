@@ -23,6 +23,6 @@ void main() {
     MockDGaugeFlutterPlatform fakePlatform = MockDGaugeFlutterPlatform();
     DGaugeFlutterPlatform.instance = fakePlatform;
 
-    expect(await DGaugeFlutter.getPlatformVersion(), '42');
+    expect(await DGaugeFlutter().getPlatformVersion(), '42');
   });
 }

@@ -6,12 +6,12 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-//        maven {
-//            url "https://jitpack.io"
-//            credentials {
-//                username "jp_7nm9vgpau70o93gs9tai5rics2"
-//            }
-//        }
+        maven {
+            url "https://jitpack.io"
+            credentials {
+                username "jp_7nm9vgpau70o93gs9tai5rics2"
+            }
+        }
     }
 
     dependencies {
@@ -24,15 +24,15 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        flatDir {
-            dirs("$projectDir/libs")
-        }
-//        maven {
-//            url "https://jitpack.io"
-//            credentials {
-//                username "jp_7nm9vgpau70o93gs9tai5rics2"
-//            }
+//        flatDir {
+//            dirs("$projectDir/libs")
 //        }
+        maven {
+            url "https://jitpack.io"
+            credentials {
+                username "jp_7nm9vgpau70o93gs9tai5rics2"
+            }
+        }
     }
 }
 
@@ -90,8 +90,9 @@ android {
 }
 
 dependencies {
+    implementation 'org.bitbucket.treel-sdk:dguage_display_android_sdk:1.0.0'
     // Include the AAR directly
-    compileOnly files("libs/dguage_display_android_sdk-1.0.0.aar")
+//    compileOnly files("libs/dguage_display_android_sdk-1.0.0.aar")
     // Use compatible androidx.core version
     implementation("androidx.core:core-ktx:1.16.0") // Compatible version
 }
