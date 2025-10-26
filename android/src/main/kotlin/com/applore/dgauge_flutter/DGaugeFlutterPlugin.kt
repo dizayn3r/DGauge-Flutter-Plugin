@@ -1,4 +1,4 @@
-package com.dizayn3r.dgauge_flutter
+package com.applore.dgauge_flutter
 
 import android.content.Context
 import android.util.Log

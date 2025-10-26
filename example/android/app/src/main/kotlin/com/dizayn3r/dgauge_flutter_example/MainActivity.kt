@@ -1,4 +1,4 @@
-package com.dizayn3r.dgauge_flutter_example
+package com.applore.dgauge_flutter_example
 
 import io.flutter.embedding.android.FlutterActivity
 

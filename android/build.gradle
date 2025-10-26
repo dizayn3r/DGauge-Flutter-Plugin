@@ -1,4 +1,4 @@
-group = "com.dizayn3r.dgauge_flutter"
+group = "com.applore.dgauge_flutter"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -41,7 +41,7 @@ apply plugin: "kotlin-android"
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace = "com.dizayn3r.dgauge_flutter"
+        namespace = "com.applore.dgauge_flutter"
     }
 
     compileSdk = 35

@@ -1,4 +1,4 @@
-package com.dizayn3r.dgauge_flutter
+package com.applore.dgauge_flutter
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel

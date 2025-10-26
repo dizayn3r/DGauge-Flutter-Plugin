@@ -1,4 +1,4 @@
-package com.dizayn3r.dgauge_flutter
+package com.applore.dgauge_flutter
 
 import com.treel.dgaugesdk.scanResult.TyreConfigurations
 import com.treel.dgaugesdk.scanResult.VehicleConfiguration
