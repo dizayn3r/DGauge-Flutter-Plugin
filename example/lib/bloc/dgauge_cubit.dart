@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 import '../enum/dgauge_status.dart';
 import '../local_storage_helpers.dart';
@@ -100,11 +101,11 @@ class DGaugeCubit extends Cubit<DGaugeState> {
       _log.error('BLE exception: code=$code, msg=$msg');
 
       if (code == 2147483646) {
-        // Fluttertoast.showToast(
-        //   msg: 'Connection limit reached. Try again after 30 seconds.',
-        // );
+        Fluttertoast.showToast(
+          msg: 'Connection limit reached. Try again after 30 seconds.',
+        );
       } else {
-        // Fluttertoast.showToast(msg: msg.isNotEmpty ? msg : 'BLE error: ${code ?? 'unknown'}');
+        Fluttertoast.showToast(msg: msg.isNotEmpty ? msg : 'BLE error: ${code ?? 'unknown'}');
       }
     } catch (e, s) {
       _log.error('Error in _handleBleException', error: e, stackTrace: s);
@@ -129,20 +130,20 @@ class DGaugeCubit extends Cubit<DGaugeState> {
       // --- Text-based status handling ---
       if (status.contains("CONNECTING")) {
         _log.debug('Status: CONNECTING_TO_DGAUGE');
-        // Fluttertoast.showToast(msg: "Connecting to DGauge...");
+        Fluttertoast.showToast(msg: "Connecting to DGauge...");
         return;
       }
 
       if (status.contains("CONNECTED")) {
         _log.info('Status: CONNECTED_DGAUGE');
-        // Fluttertoast.showToast(msg: "✅ Connected to DGauge");
+        Fluttertoast.showToast(msg: "✅ Connected to DGauge");
         emit(state.copyWith(status: DGaugeStatus.connected));
         return;
       }
 
       if (status.contains("DISCONNECTED") || status.contains("DISCONNECT")) {
         _log.warning('Status: DISCONNECTED_DGAUGE');
-        // Fluttertoast.showToast(msg: "⚠️ Disconnected from DGauge");
+        Fluttertoast.showToast(msg: "⚠️ Disconnected from DGauge");
         emit(state.copyWith(status: DGaugeStatus.disconnected));
         return;
       }
@@ -150,37 +151,37 @@ class DGaugeCubit extends Cubit<DGaugeState> {
       if (status.contains("FAILED")) {
         _log.error('Status: CONNECTION_FAILED');
         emit(state.copyWith(status: DGaugeStatus.failed));
-        // Fluttertoast.showToast(msg: "❌ Connection failed. Please retry.");
+        Fluttertoast.showToast(msg: "❌ Connection failed. Please retry.");
         return;
       }
 
       if (status.contains("TIMEOUT") || status.contains("TIMED")) {
         _log.warning('Status: CONNECTION_TIMEOUT');
-        // Fluttertoast.showToast(msg: "⏳ Connection timed out.");
+        Fluttertoast.showToast(msg: "⏳ Connection timed out.");
         return;
       }
 
       if (status.contains("INVALID") && status.contains("MAC")) {
         _log.warning('Status: INVALID_MAC_ADDRESS');
-        // Fluttertoast.showToast(msg: "❌ Invalid MAC address");
+        Fluttertoast.showToast(msg: "❌ Invalid MAC address");
         return;
       }
 
       if (status.contains("SCANNING")) {
         _log.debug('Status: SCANNING_IN_PROGRESS');
-        // Fluttertoast.showToast(msg: "🔍 Scanning for DGauge...");
+        Fluttertoast.showToast(msg: "🔍 Scanning for DGauge...");
         return;
       }
 
       if (status.contains("STOP")) {
         _log.debug('Status: SCANNING_STOP');
-        // Fluttertoast.showToast(msg: "Scan stopped.");
+        Fluttertoast.showToast(msg: "Scan stopped.");
         return;
       }
 
       if (status.contains("CONFIG") || status.contains("SYNC")) {
         _log.info('Status: CUSTOM_MESSAGE');
-        // Fluttertoast.showToast(msg: message.isNotEmpty ? message : "DGauge status updated.");
+        Fluttertoast.showToast(msg: message.isNotEmpty ? message : "DGauge status updated.");
         return;
       }
 
@@ -189,35 +190,35 @@ class DGaugeCubit extends Cubit<DGaugeState> {
         switch (response.toInt()) {
           case 0:
             _log.debug('Status: IDLE / NO CONNECTION');
-            // Fluttertoast.showToast(msg: "DGauge idle or disconnected.");
+            Fluttertoast.showToast(msg: "DGauge idle or disconnected.");
             break;
           case 1:
             _log.info('Status: CONNECTED');
-            // Fluttertoast.showToast(msg: "✅ Connected to DGauge");
+            Fluttertoast.showToast(msg: "✅ Connected to DGauge");
             break;
           case 2:
             _log.debug('Status: CONNECTING');
-            // Fluttertoast.showToast(msg: "Connecting to DGauge...");
+            Fluttertoast.showToast(msg: "Connecting to DGauge...");
             break;
           case 3:
             _log.error('Status: FAILED');
-            // Fluttertoast.showToast(msg: "❌ Connection failed");
+            Fluttertoast.showToast(msg: "❌ Connection failed");
             break;
           case 4:
             _log.info('Status: CONNECTED');
-            // Fluttertoast.showToast(msg: "✅ Connected (code 4)");
+            Fluttertoast.showToast(msg: "✅ Connected (code 4)");
             break;
           case 6:
             _log.info('Status: SAVED_CONFIG');
-            // Fluttertoast.showToast(msg: "✅ Configuration saved");
+            Fluttertoast.showToast(msg: "✅ Configuration saved");
             break;
           case 8:
             _log.info('Status: FACTORY_SETTINGS_READ');
-            // Fluttertoast.showToast(msg: "✅ Read factory settings");
+            Fluttertoast.showToast(msg: "✅ Read factory settings");
             break;
           case 9:
             _log.error('Status: INVALID_MAC_ADDRESS');
-            // Fluttertoast.showToast(msg: "❌ Enter valid MAC address");
+            Fluttertoast.showToast(msg: "❌ Enter valid MAC address");
             break;
           default:
             _log.warning('Status: UNKNOWN_CODE_$response');
@@ -249,7 +250,7 @@ class DGaugeCubit extends Cubit<DGaugeState> {
         // Handle "in progress" specifically
         if (message.toLowerCase().contains("inprogress")) {
           _log.warning('Sync already in progress on device');
-          // Fluttertoast.showToast(msg: "🔄 Device is still syncing, please wait...");
+          Fluttertoast.showToast(msg: "🔄 Device is still syncing, please wait...");
           emit(state.copyWith(status: DGaugeStatus.syncInProgress));
           return;
         }
@@ -257,34 +258,34 @@ class DGaugeCubit extends Cubit<DGaugeState> {
         // Handle Tyre configuration saved successfully case
         if(message.toLowerCase().contains("tyre configuration saved successfully")) {
           _log.info('✅ Tyre configuration saved successfully');
-          // Fluttertoast.showToast(msg: "✅ Tyre configuration saved");
+          Fluttertoast.showToast(msg: "✅ Tyre configuration saved");
         }
 
         // Handle Pressure configuraiton saved successfully
       if(message.toLowerCase().contains("pressure")) {
         _log.info('✅ Pressure Temp configuration saved successfully');
-        // Fluttertoast.showToast(msg: "✅ Pressure Temp configuration saved");
+        Fluttertoast.showToast(msg: "✅ Pressure Temp configuration saved");
       }
 
       if(message.toLowerCase().contains("all configuration")) {
         _log.info('✅ All configuration saved successfully');
-        // Fluttertoast.showToast(msg: "✅ All configuration saved");
+        Fluttertoast.showToast(msg: "✅ All configuration saved");
       }
 
         // Handle general sync failure
         _log.error('Sync failed: $message');
-        // Fluttertoast.showToast(msg: "❌ Sync failed: $message");
+        Fluttertoast.showToast(msg: "❌ Sync failed: $message");
         emit(state.copyWith(status: DGaugeStatus.syncFailed));
         return;
 
 
       // Success case
       _log.info('✅ Vehicle configuration synced successfully');
-      // Fluttertoast.showToast(msg: "✅ Vehicle configuration synced");
+      Fluttertoast.showToast(msg: "✅ Vehicle configuration synced");
       emit(state.copyWith(status: DGaugeStatus.synced));
     } catch (e, s) {
       _log.error('Error in _handleSyncResponse', error: e, stackTrace: s);
-      // Fluttertoast.showToast(msg: "❌ Unexpected error during sync");
+      Fluttertoast.showToast(msg: "❌ Unexpected error during sync");
       emit(state.copyWith(status: DGaugeStatus.syncFailed));
     }
   }
@@ -484,7 +485,7 @@ class DGaugeCubit extends Cubit<DGaugeState> {
       ) async {
     if (state.status == DGaugeStatus.syncInProgress) {
       _log.warning('Sync already in progress, skipping duplicate request');
-      // Fluttertoast.showToast(msg: "🔄 Sync already in progress...");
+      Fluttertoast.showToast(msg: "🔄 Sync already in progress...");
       return;
     }
 
@@ -493,7 +494,7 @@ class DGaugeCubit extends Cubit<DGaugeState> {
 
     if (vehicleConfiguration.tyreConfigurations.isEmpty) {
       _log.warning('No tyre configurations provided');
-      // Fluttertoast.showToast(msg: "Tyre configuration is empty");
+      Fluttertoast.showToast(msg: "Tyre configuration is empty");
       return;
     }
 
@@ -506,11 +507,11 @@ class DGaugeCubit extends Cubit<DGaugeState> {
       );
 
       _log.info('Vehicle configuration sent successfully');
-      // Fluttertoast.showToast(msg: "✅ Vehicle configuration sent");
+      Fluttertoast.showToast(msg: "✅ Vehicle configuration sent");
       emit(state.copyWith(status: DGaugeStatus.synced));
     } catch (e, s) {
       _log.error('Error in syncVehicleConfiguration', error: e, stackTrace: s);
-      // Fluttertoast.showToast(msg: "❌ Failed to sync configuration");
+      Fluttertoast.showToast(msg: "❌ Failed to sync configuration");
       emit(state.copyWith(status: DGaugeStatus.syncFailed));
     }
   }
@@ -521,11 +522,11 @@ class DGaugeCubit extends Cubit<DGaugeState> {
     _log.info('Starting tire inspection for: $mac');
     try {
       await _sdk.startTireInspection(macAddress: mac);
-      // Fluttertoast.showToast(msg: "Requested tire inspection");
+      Fluttertoast.showToast(msg: "Requested tire inspection");
       _log.info('Tire inspection request sent');
     } catch (e, s) {
       _log.error('Error in startTireInspection', error: e, stackTrace: s);
-      // Fluttertoast.showToast(msg: "Failed to start inspection");
+      Fluttertoast.showToast(msg: "Failed to start inspection");
     }
   }
 
@@ -535,11 +536,11 @@ class DGaugeCubit extends Cubit<DGaugeState> {
     _log.info('Fetching all tire data for: $mac');
     try {
       await _sdk.fetchAllTireData(macAddress: mac);
-      // Fluttertoast.showToast(msg: "Requested fetch all tyre data");
+      Fluttertoast.showToast(msg: "Requested fetch all tyre data");
       _log.info('Fetch all tire data request sent');
     } catch (e, s) {
       _log.error('Error in fetchAllTireData', error: e, stackTrace: s);
-      // Fluttertoast.showToast(msg: "Failed to fetch all tyre data");
+      Fluttertoast.showToast(msg: "Failed to fetch all tyre data");
     }
   }
 
@@ -560,7 +561,7 @@ class DGaugeCubit extends Cubit<DGaugeState> {
       return res;
     } catch (e, s) {
       _log.error('readTreadDepthOnce failed', error: e, stackTrace: s);
-      // Fluttertoast.showToast(msg: "Failed to read tread depth");
+      Fluttertoast.showToast(msg: "Failed to read tread depth");
       rethrow;
     }
   }
@@ -578,7 +579,7 @@ class DGaugeCubit extends Cubit<DGaugeState> {
       return res;
     } catch (e, s) {
       _log.error('readAllTreadDepths failed', error: e, stackTrace: s);
-      // Fluttertoast.showToast(msg: "Failed to read all tyres");
+      Fluttertoast.showToast(msg: "Failed to read all tyres");
       rethrow;
     }
   }
