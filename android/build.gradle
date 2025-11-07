@@ -24,9 +24,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-//        flatDir {
-//            dirs("$projectDir/libs")
-//        }
         maven {
             url "https://jitpack.io"
             credentials {
@@ -44,7 +41,7 @@ android {
         namespace = "com.applore.dgauge_flutter"
     }
 
-    compileSdk = 35
+    compileSdk = 36
     ndkVersion = "26.1.10909125"
 
     compileOptions {
@@ -67,14 +64,8 @@ android {
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 35
+        targetSdk = 36
     }
-
-//    dependencies {
-//        testImplementation("org.jetbrains.kotlin:kotlin-test")
-//        testImplementation("org.mockito:mockito-core:5.0.0")
-//        implementation 'org.bitbucket.treel-sdk:dguage_display_android_sdk:1.0.0'
-//    }
 
     testOptions {
         unitTests.all {
@@ -90,9 +81,6 @@ android {
 }
 
 dependencies {
-    implementation 'org.bitbucket.treel-sdk:dguage_display_android_sdk:1.0.0'
-    // Include the AAR directly
-//    compileOnly files("libs/dguage_display_android_sdk-1.0.0.aar")
-    // Use compatible androidx.core version
-    implementation("androidx.core:core-ktx:1.16.0") // Compatible version
+    implementation 'org.bitbucket.treel-sdk:dguage_display_android_sdk:1.0.3'
+    implementation("androidx.core:core-ktx:1.16.0")
 }
