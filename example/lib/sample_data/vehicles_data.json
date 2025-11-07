@@ -1,0 +1,1887 @@
+{
+  "data": [
+    {
+      "registrationNumber": "HR55AC7825",
+      "tyres": [
+        {
+          "stencilNo": "H2125442223",
+          "averageNSD": "15.27",
+          "position": "DLO"
+        },
+        {
+          "stencilNo": "H2090403624",
+          "averageNSD": "16.00",
+          "position": "DLI"
+        },
+        {
+          "stencilNo": "H2074514018",
+          "position": "STP",
+          "averageNSD": "6.00"
+        },
+        {
+          "_id": "660fa20c4451f04b7ca97c71",
+          "stencilNo": "H2186881324",
+          "totalKilometerTravelled": 50762,
+          "averageNSD": "13.93",
+          "position": "DRI",
+          "lastInspectionDate": "2025-07-30T08:17:20.280Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "660fa24e4451f04b7ca983e6",
+          "stencilNo": "H2213760524",
+          "totalKilometerTravelled": 50762,
+          "averageNSD": "13.10",
+          "position": "DRO",
+          "lastInspectionDate": "2025-07-30T08:17:20.280Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66cf2136062439cb49d45b37",
+          "stencilNo": "H2153852924",
+          "totalKilometerTravelled": 31492,
+          "averageNSD": "14.93",
+          "lastInspectionDate": "2025-07-30T08:17:20.280Z",
+          "position": "FL",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66e52f2c3ca51c315cf6ed4f",
+          "stencilNo": "H2158843624",
+          "totalKilometerTravelled": 31492,
+          "averageNSD": "14.73",
+          "lastInspectionDate": "2025-07-30T08:17:20.280Z",
+          "position": "FR",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67a30c7a7663bc7b48dd1625",
+          "stencilNo": "H2020100525",
+          "totalKilometerTravelled": 11687,
+          "averageNSD": "17.77",
+          "lastInspectionDate": "2025-07-30T08:17:20.280Z",
+          "position": "RRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67a30c8e7663bc7b48dd16d5",
+          "stencilNo": "H2057920525",
+          "totalKilometerTravelled": 11687,
+          "averageNSD": "17.90",
+          "lastInspectionDate": "2025-07-30T08:17:20.280Z",
+          "position": "RRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67a30ca17663bc7b48dd1d7c",
+          "stencilNo": "H2236430525",
+          "totalKilometerTravelled": 11687,
+          "averageNSD": "18.07",
+          "lastInspectionDate": "2025-07-30T08:17:20.280Z",
+          "position": "RLO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67a30caf7663bc7b48dd1df3",
+          "stencilNo": "H2228120525",
+          "totalKilometerTravelled": 11687,
+          "averageNSD": "17.90",
+          "lastInspectionDate": "2025-07-30T08:17:20.280Z",
+          "position": "RLI",
+          "replacementWithoutInspection": false
+        }
+      ],
+      "configuration": {
+        "name": "6X2 (10+1)",
+        "wheelCount": 11,
+        "tyrePositions": [
+          "FL",
+          "FR",
+          "DLO",
+          "DLI",
+          "DRO",
+          "DRI",
+          "RLO",
+          "RLI",
+          "RRO",
+          "RRI",
+          "STP"
+        ]
+      }
+    },
+    {
+      "_id": "636e1eb4fe21d47b4951388a",
+      "registrationNumber": "NL01AG7437",
+      "contractType": {
+        "_id": "620608575b52522414b6c169",
+        "name": "CPKM"
+      },
+      "fitmentDate": "16-06-2022 00:00",
+      "createdAt": "2022-11-11T10:06:44.197Z",
+      "updatedAt": "2025-07-30T07:40:31.555Z",
+      "inspectionNo": "00046",
+      "lastInspectionDate": "22-10-2025 06:18",
+      "lastInspectionHub": "62f60f0d5b0b8d0b601c0778",
+      "tyres": [
+        {
+          "_id": "65152061f899e07e077557a8",
+          "stencilNo": "H2160213923",
+          "totalKilometerTravelled": 75466,
+          "averageNSD": "4.00",
+          "position": "STP",
+          "lastInspectionDate": "2025-07-30T13:10:31.303Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "63777308bcd71b191a8735f8",
+          "stencilNo": "C0154342322",
+          "totalKilometerTravelled": 189440,
+          "position": "LL1",
+          "averageNSD": "8.17",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "63777574bcd71b191a87c5e5",
+          "stencilNo": "H2147413322",
+          "totalKilometerTravelled": 166011,
+          "position": "LR1",
+          "averageNSD": "7.83",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "64841ca202730880ead8640f",
+          "stencilNo": "H2070780823",
+          "totalKilometerTravelled": 114517,
+          "averageNSD": "7.00",
+          "position": "FR",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "65f0359d504dc7e6beed456a",
+          "stencilNo": "R0091660824",
+          "totalKilometerTravelled": 64321,
+          "averageNSD": "8.17",
+          "position": "FL",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "660fa34e4451f04b7ca99f13",
+          "stencilNo": "H2164061324",
+          "totalKilometerTravelled": 61450,
+          "averageNSD": "9.70",
+          "position": "DLO",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "660fa3724451f04b7ca9a3b9",
+          "stencilNo": "H2345691124",
+          "totalKilometerTravelled": 61450,
+          "averageNSD": "9.30",
+          "position": "DLI",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66b467d518e536b0dfacb4c0",
+          "stencilNo": "H2368262424",
+          "totalKilometerTravelled": 44424,
+          "averageNSD": "13.57",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "position": "DRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66b467da18e536b0dfacb62e",
+          "stencilNo": "H2054491124",
+          "totalKilometerTravelled": 44423,
+          "averageNSD": "13.43",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "position": "DRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "678f8e566c1129a9a35602d4",
+          "stencilNo": "H2222830225",
+          "totalKilometerTravelled": 25058,
+          "averageNSD": "16.97",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "position": "RRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "678f8e6a6c1129a9a35603a7",
+          "stencilNo": "H2229980225",
+          "totalKilometerTravelled": 25058,
+          "averageNSD": "16.30",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "position": "RRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "68287f1a2fc137723dc81e6c",
+          "stencilNo": "H2298701925",
+          "totalKilometerTravelled": 10681,
+          "averageNSD": "17.93",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "position": "RLO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "68287f222fc137723dc81f2e",
+          "stencilNo": "H2169671925",
+          "totalKilometerTravelled": 10681,
+          "averageNSD": "17.57",
+          "lastInspectionDate": "2025-07-30T07:38:35.166Z",
+          "position": "RLI",
+          "replacementWithoutInspection": false
+        }
+      ],
+      "GVW": "33",
+      "registrationYear": "2016",
+      "vehicleCC": "6200",
+      "engineNumber": "",
+      "averageRunKmPerDay": 400,
+      "enableReplacementWithoutInspection": false,
+      "agreementsInfo": [],
+      "fleet": {
+        "_id": "62fb81915b0b8d0b6020fe75",
+        "fleetName": "A TO Z LOGISTICS LIMITED (KHALILPUR)",
+        "averageRunKmPerDay": 400,
+        "enableReplacementWithoutInspection": false
+      },
+      "hub": {
+        "_id": "62f60f0d5b0b8d0b601c0778",
+        "hubName": "Dharuhera AtoZ"
+      },
+      "vehicleMake": {
+        "_id": "6385ace250e8a35aa213c125",
+        "make": "TML",
+        "makeName": "TATA MOTORS LTD.",
+        "makeImg": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1670044256425-TATA.png",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:30.909Z",
+        "updatedAt": "2022-12-03T05:10:57.497Z",
+        "__v": 0
+      },
+      "configuration": {
+        "_id": "6385ace750e8a35aa213c1bc",
+        "name": "8X2 - HAULAGE (12+1)",
+        "wheelCount": 13,
+        "tyrePositions": [
+          "FL",
+          "FR",
+          "DLO",
+          "DLI",
+          "DRO",
+          "DRI",
+          "RLO",
+          "RLI",
+          "RRO",
+          "RRI",
+          "LL1",
+          "LR1",
+          "STP"
+        ]
+      },
+      "model": {
+        "_id": "6385ace750e8a35aa213c1ba",
+        "name": "3118",
+        "make": "6385ace250e8a35aa213c125",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:35.482Z",
+        "updatedAt": "2022-11-29T06:55:35.482Z",
+        "__v": 0
+      },
+      "lastInspectionDateFromInspection": "2025-10-22T06:18:23.838Z",
+      "odometerReading": "695422",
+      "kilometerTravelled": "3370",
+      "bodyType": {
+        "_id": "6206091f5b52522414b6c179",
+        "name": "Container"
+      },
+      "applicationType": {
+        "_id": "620609975b52522414b6c187",
+        "name": "Long Distance"
+      },
+      "mechanicalCondition": {
+        "_id": "620608a35b52522414b6c16d",
+        "name": "OK",
+        "code": "OK8238"
+      },
+      "mechanicalConditionReason": {
+        "_id": "65967a219bf7b49cc0872bd5",
+        "name": "Bell Crank Issue",
+        "code": "BELL9863"
+      },
+      "firstInspectionDate": "2022-06-16T00:00:00.000Z"
+    },
+    {
+      "_id": "636e1eb2fe21d47b4951383c",
+      "registrationNumber": "NL01AG7438",
+      "contractType": {
+        "_id": "620608575b52522414b6c169",
+        "name": "CPKM"
+      },
+      "fitmentDate": "10-05-2022 00:00",
+      "createdAt": "2022-11-11T10:06:42.077Z",
+      "updatedAt": "2025-07-30T06:10:28.841Z",
+      "inspectionNo": "00040",
+      "lastInspectionDate": "13-09-2025 13:20",
+      "lastInspectionHub": "62f60f0d5b0b8d0b601c0778",
+      "tyres": [
+        {
+          "_id": "63777034bcd71b191a8672c3",
+          "stencilNo": "H2088691222",
+          "totalKilometerTravelled": 156910,
+          "position": "STP",
+          "averageNSD": "5.00",
+          "lastInspectionDate": "2025-07-30T11:40:28.563Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "64a504f9da7562c4f516a86f",
+          "stencilNo": "H2236421823",
+          "totalKilometerTravelled": 93001,
+          "averageNSD": "7.10",
+          "position": "LL1",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66b21dc3a09c44d0e861b0ee",
+          "stencilNo": "H2100092024",
+          "totalKilometerTravelled": 32822,
+          "averageNSD": "12.47",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "RLI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "670e0528c17909d10f163ebd",
+          "stencilNo": "H2097543524",
+          "totalKilometerTravelled": 27862,
+          "averageNSD": "16.20",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "DRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "670e052bc17909d10f163f75",
+          "stencilNo": "H2098393524",
+          "totalKilometerTravelled": 27862,
+          "averageNSD": "15.47",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "DRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "677280359cc685ee0c73a913",
+          "stencilNo": "H2305275024",
+          "totalKilometerTravelled": 16755,
+          "averageNSD": "14.80",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "RRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "678f8e646c1129a9a3560350",
+          "stencilNo": "H2217210225",
+          "totalKilometerTravelled": 16755,
+          "averageNSD": "17.23",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "RLO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "678f8e786c1129a9a356046f",
+          "stencilNo": "H2194790225",
+          "totalKilometerTravelled": 16755,
+          "averageNSD": "17.27",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "FL",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67a30c427663bc7b48dd107e",
+          "stencilNo": "H2169780525",
+          "totalKilometerTravelled": 16755,
+          "averageNSD": "14.23",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "DLO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67a30c727663bc7b48dd1482",
+          "stencilNo": "H2228720525",
+          "totalKilometerTravelled": 15444,
+          "averageNSD": "17.53",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "RRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67a30c827663bc7b48dd167b",
+          "stencilNo": "H2219170525",
+          "totalKilometerTravelled": 15444,
+          "averageNSD": "17.23",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "DLI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "68287f012fc137723dc81c42",
+          "stencilNo": "C0229171925",
+          "totalKilometerTravelled": 7013,
+          "averageNSD": "15.87",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "FR",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "68287f042fc137723dc81c60",
+          "stencilNo": "C0176911925",
+          "totalKilometerTravelled": 7013,
+          "averageNSD": "15.77",
+          "lastInspectionDate": "2025-07-30T06:07:51.764Z",
+          "position": "LR1",
+          "replacementWithoutInspection": false
+        }
+      ],
+      "GVW": "33",
+      "registrationYear": "2016",
+      "vehicleCC": "6200",
+      "averageRunKmPerDay": 400,
+      "enableReplacementWithoutInspection": false,
+      "agreementsInfo": [],
+      "fleet": {
+        "_id": "62fb81915b0b8d0b6020fe75",
+        "fleetName": "A TO Z LOGISTICS LIMITED (KHALILPUR)",
+        "averageRunKmPerDay": 400,
+        "enableReplacementWithoutInspection": false
+      },
+      "hub": {
+        "_id": "62f60f0d5b0b8d0b601c0778",
+        "hubName": "Dharuhera AtoZ"
+      },
+      "vehicleMake": {
+        "_id": "6385ace250e8a35aa213c125",
+        "make": "TML",
+        "makeName": "TATA MOTORS LTD.",
+        "makeImg": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1670044256425-TATA.png",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:30.909Z",
+        "updatedAt": "2022-12-03T05:10:57.497Z",
+        "__v": 0
+      },
+      "configuration": {
+        "_id": "6385ace750e8a35aa213c1bc",
+        "name": "8X2 - HAULAGE (12+1)",
+        "wheelCount": 13,
+        "tyrePositions": [
+          "FL",
+          "FR",
+          "DLO",
+          "DLI",
+          "DRO",
+          "DRI",
+          "RLO",
+          "RLI",
+          "RRO",
+          "RRI",
+          "LL1",
+          "LR1",
+          "STP"
+        ]
+      },
+      "model": {
+        "_id": "6385ace750e8a35aa213c1ba",
+        "name": "3118",
+        "make": "6385ace250e8a35aa213c125",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:35.482Z",
+        "updatedAt": "2022-11-29T06:55:35.482Z",
+        "__v": 0
+      },
+      "lastInspectionDateFromInspection": "2025-09-13T13:20:00.174Z",
+      "odometerReading": "652145",
+      "kilometerTravelled": "4859",
+      "bodyType": {
+        "_id": "6206091f5b52522414b6c179",
+        "name": "Container"
+      },
+      "applicationType": {
+        "_id": "620609975b52522414b6c187",
+        "name": "Long Distance"
+      },
+      "mechanicalCondition": {
+        "_id": "620608a35b52522414b6c16d",
+        "name": "OK",
+        "code": "OK8238"
+      },
+      "firstInspectionDate": "2022-05-10T00:00:00.000Z"
+    },
+    {
+      "_id": "636e1eacfe21d47b49513794",
+      "registrationNumber": "RJ14GF8341",
+      "contractType": {
+        "_id": "620608575b52522414b6c169",
+        "name": "CPKM"
+      },
+      "fitmentDate": "03-07-2022 00:00",
+      "createdAt": "2022-11-11T10:06:36.761Z",
+      "updatedAt": "2025-07-28T06:01:09.704Z",
+      "inspectionNo": "00024",
+      "lastInspectionDate": "09-09-2025 10:09",
+      "lastInspectionHub": "62f60f0d5b0b8d0b601c0778",
+      "tyres": [
+        {
+          "_id": "686e65cf9520b774ba17f018",
+          "stencilNo": "H2368052725",
+          "totalKilometerTravelled": 0,
+          "averageNSD": "16.50",
+          "lastInspectionDate": "2025-07-28T11:31:09.414Z",
+          "position": "RRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "637773a4bcd71b191a875af0",
+          "stencilNo": "H2174862622",
+          "totalKilometerTravelled": 122485,
+          "position": "STP",
+          "averageNSD": "7.17",
+          "lastInspectionDate": "2025-07-28T05:59:57.329Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67cab7733c1283b958e45e45",
+          "stencilNo": "H2105260125",
+          "totalKilometerTravelled": 10872,
+          "averageNSD": "16.83",
+          "lastInspectionDate": "2025-07-28T05:59:57.329Z",
+          "position": "DRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67dea0684e4c21cc5979dd8a",
+          "stencilNo": "C0021130225",
+          "totalKilometerTravelled": 10872,
+          "averageNSD": "15.50",
+          "lastInspectionDate": "2025-07-28T05:59:57.329Z",
+          "position": "DLI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67dea06d4e4c21cc5979ddcb",
+          "stencilNo": "H2220240125",
+          "totalKilometerTravelled": 10872,
+          "averageNSD": "16.67",
+          "lastInspectionDate": "2025-07-28T05:59:57.329Z",
+          "position": "DLO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67dea0774e4c21cc5979de43",
+          "stencilNo": "C0179050225",
+          "totalKilometerTravelled": 10872,
+          "averageNSD": "16.33",
+          "lastInspectionDate": "2025-07-28T05:59:57.329Z",
+          "position": "DRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67dea0834e4c21cc5979deec",
+          "stencilNo": "H2282570925",
+          "totalKilometerTravelled": 10872,
+          "averageNSD": "15.00",
+          "lastInspectionDate": "2025-07-28T05:59:57.329Z",
+          "position": "RLI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67dea0874e4c21cc5979df77",
+          "stencilNo": "H2012261025",
+          "totalKilometerTravelled": 10872,
+          "averageNSD": "15.00",
+          "lastInspectionDate": "2025-07-28T05:59:57.329Z",
+          "position": "FR",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67dea08a4e4c21cc5979dfac",
+          "stencilNo": "H2101530425",
+          "totalKilometerTravelled": 2,
+          "averageNSD": "15.07",
+          "lastInspectionDate": "2025-07-28T05:59:57.329Z",
+          "position": "FL",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67dea08e4e4c21cc5979e15d",
+          "stencilNo": "H2053540925",
+          "totalKilometerTravelled": 10872,
+          "averageNSD": "15.00",
+          "lastInspectionDate": "2025-07-28T05:59:57.329Z",
+          "position": "RLO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "686e65c29520b774ba17ef6f",
+          "stencilNo": "H2369482725",
+          "totalKilometerTravelled": 1,
+          "averageNSD": "16.50",
+          "lastInspectionDate": "2025-07-28T05:59:57.329Z",
+          "position": "RRI",
+          "replacementWithoutInspection": false
+        }
+      ],
+      "GVW": "25",
+      "registrationYear": "2018",
+      "vehicleCC": "5600",
+      "averageRunKmPerDay": 400,
+      "enableReplacementWithoutInspection": false,
+      "agreementsInfo": [],
+      "fleet": {
+        "_id": "62fb81915b0b8d0b6020fe75",
+        "fleetName": "A TO Z LOGISTICS LIMITED (KHALILPUR)",
+        "averageRunKmPerDay": 400,
+        "enableReplacementWithoutInspection": false
+      },
+      "hub": {
+        "_id": "62f60f0d5b0b8d0b601c0778",
+        "hubName": "Dharuhera AtoZ"
+      },
+      "vehicleMake": {
+        "_id": "6385acd950e8a35aa213bff3",
+        "make": "EPPL",
+        "makeName": "EICHER POLARIS PVT. LTD.",
+        "makeImg": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1670044745505-EICHER_POL.jpeg",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:21.466Z",
+        "updatedAt": "2022-12-03T05:19:06.511Z",
+        "__v": 0
+      },
+      "configuration": {
+        "_id": "6385acdc50e8a35aa213c052",
+        "name": "6X2 (10+1)",
+        "wheelCount": 11,
+        "tyrePositions": [
+          "FL",
+          "FR",
+          "DLO",
+          "DLI",
+          "DRO",
+          "DRI",
+          "RLO",
+          "RLI",
+          "RRO",
+          "RRI",
+          "STP"
+        ]
+      },
+      "model": {
+        "_id": "6385acdc50e8a35aa213c050",
+        "name": "3025",
+        "make": "6385acd950e8a35aa213bff3",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:24.512Z",
+        "updatedAt": "2022-11-29T06:55:24.512Z",
+        "__v": 0
+      },
+      "lastInspectionDateFromInspection": "2025-09-09T10:09:45.092Z",
+      "odometerReading": "376798",
+      "kilometerTravelled": "684",
+      "bodyType": {
+        "_id": "6206091f5b52522414b6c179",
+        "name": "Container"
+      },
+      "applicationType": {
+        "_id": "620609975b52522414b6c187",
+        "name": "Long Distance"
+      },
+      "mechanicalCondition": {
+        "_id": "620608a35b52522414b6c16d",
+        "name": "OK",
+        "code": "OK8238"
+      },
+      "firstInspectionDate": "2022-07-03T00:00:00.000Z"
+    },
+    {
+      "_id": "636e1eb4fe21d47b4951389c",
+      "registrationNumber": "HR55X8106",
+      "contractType": {
+        "_id": "620608575b52522414b6c169",
+        "name": "CPKM"
+      },
+      "fitmentDate": "17-06-2022 00:00",
+      "createdAt": "2022-11-11T10:06:44.690Z",
+      "updatedAt": "2025-07-24T09:54:20.231Z",
+      "inspectionNo": "00038",
+      "lastInspectionDate": "19-09-2025 08:48",
+      "lastInspectionHub": "62f60f0d5b0b8d0b601c0778",
+      "tyres": [
+        {
+          "_id": "63777060bcd71b191a867e5b",
+          "stencilNo": "C0105500822",
+          "totalKilometerTravelled": 119084,
+          "position": "STP",
+          "averageNSD": "5.33",
+          "lastInspectionDate": "2025-07-24T15:24:19.959Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "65d388d7e3b0d0e22a7d35ea",
+          "stencilNo": "H2272100324",
+          "totalKilometerTravelled": 57868,
+          "averageNSD": "10.00",
+          "position": "FL",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66c56f566f7bb1ee11afdf06",
+          "stencilNo": "H2292563024",
+          "totalKilometerTravelled": 39153,
+          "averageNSD": "13.50",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "DLI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66c56f826f7bb1ee11afe382",
+          "stencilNo": "H2013283324",
+          "totalKilometerTravelled": 39153,
+          "averageNSD": "14.43",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "DLO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66f3b371dc9ab8d8bfa774eb",
+          "stencilNo": "H2348413624",
+          "totalKilometerTravelled": 34103,
+          "averageNSD": "13.00",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "FR",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "677b9dbbe0de0677edf54954",
+          "stencilNo": "H2101190125",
+          "totalKilometerTravelled": 19978,
+          "averageNSD": "16.67",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "DRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "678f8e746c1129a9a3560456",
+          "stencilNo": "H2228800225",
+          "totalKilometerTravelled": 19978,
+          "averageNSD": "16.33",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "DRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6818a579487edff0346d0c11",
+          "stencilNo": "C0049024424",
+          "totalKilometerTravelled": 8114,
+          "averageNSD": "17.30",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "RRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6818a57d487edff0346d0c4f",
+          "stencilNo": "C0056603124",
+          "totalKilometerTravelled": 8114,
+          "averageNSD": "16.67",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "RLI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6818a591487edff0346d0ca8",
+          "stencilNo": "C0034273424",
+          "totalKilometerTravelled": 8114,
+          "averageNSD": "16.83",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "RLO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6818a5c7487edff0346d165a",
+          "stencilNo": "C0131460525",
+          "totalKilometerTravelled": 8114,
+          "averageNSD": "17.33",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "RRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "686bdc7f4aa834acb09e13db",
+          "stencilNo": "H2192552425",
+          "totalKilometerTravelled": 530,
+          "averageNSD": "18.00",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "LR1",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "686bdc854aa834acb09e142b",
+          "stencilNo": "H2023562625",
+          "totalKilometerTravelled": 530,
+          "averageNSD": "18.00",
+          "lastInspectionDate": "2025-07-24T09:53:19.180Z",
+          "position": "LL1",
+          "replacementWithoutInspection": false
+        }
+      ],
+      "GVW": "33",
+      "registrationYear": "2018",
+      "vehicleCC": "5800",
+      "agreement": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1732697914054-inspection.pdf",
+      "agreements": [
+        {
+          "document": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1732697914054-inspection.pdf",
+          "uploadedOn": "2024-11-27",
+          "uploadedById": "643fe35d389877ebf74ca4c0",
+          "uploadedBy": "Vinay Chopra",
+          "dateOfUpload": "2024-11-27T08:58:38.256Z",
+          "_id": "6746df3e4161109344c6b4eb"
+        }
+      ],
+      "averageRunKmPerDay": 400,
+      "enableReplacementWithoutInspection": false,
+      "agreementsInfo": [
+        {
+          "_id": "643fe35d389877ebf74ca4c0",
+          "name": "Vinay Chopra",
+          "email": "vinay.chopra@applore.inBLOCK"
+        }
+      ],
+      "fleet": {
+        "_id": "62fb81915b0b8d0b6020fe75",
+        "fleetName": "A TO Z LOGISTICS LIMITED (KHALILPUR)",
+        "averageRunKmPerDay": 400,
+        "enableReplacementWithoutInspection": false
+      },
+      "hub": {
+        "_id": "62f60f0d5b0b8d0b601c0778",
+        "hubName": "Dharuhera AtoZ"
+      },
+      "vehicleMake": {
+        "_id": "6385ace250e8a35aa213c125",
+        "make": "TML",
+        "makeName": "TATA MOTORS LTD.",
+        "makeImg": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1670044256425-TATA.png",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:30.909Z",
+        "updatedAt": "2022-12-03T05:10:57.497Z",
+        "__v": 0
+      },
+      "configuration": {
+        "_id": "6385ace750e8a35aa213c1bc",
+        "name": "8X2 - HAULAGE (12+1)",
+        "wheelCount": 13,
+        "tyrePositions": [
+          "FL",
+          "FR",
+          "DLO",
+          "DLI",
+          "DRO",
+          "DRI",
+          "RLO",
+          "RLI",
+          "RRO",
+          "RRI",
+          "LL1",
+          "LR1",
+          "STP"
+        ]
+      },
+      "model": {
+        "_id": "6385ace750e8a35aa213c1ba",
+        "name": "3118",
+        "make": "6385ace250e8a35aa213c125",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:35.482Z",
+        "updatedAt": "2022-11-29T06:55:35.482Z",
+        "__v": 0
+      },
+      "lastInspectionDateFromInspection": "2025-09-19T08:48:57.163Z",
+      "odometerReading": "431488",
+      "kilometerTravelled": "1080",
+      "bodyType": {
+        "_id": "6206091f5b52522414b6c179",
+        "name": "Container"
+      },
+      "applicationType": {
+        "_id": "620609975b52522414b6c187",
+        "name": "Long Distance"
+      },
+      "mechanicalCondition": {
+        "_id": "620608a35b52522414b6c16d",
+        "name": "OK",
+        "code": "OK8238"
+      },
+      "firstInspectionDate": "2022-06-17T00:00:00.000Z"
+    },
+    {
+      "_id": "636e1eb0fe21d47b4951380c",
+      "registrationNumber": "RJ10GB2277",
+      "contractType": {
+        "_id": "620608575b52522414b6c169",
+        "name": "CPKM"
+      },
+      "fitmentDate": "08-04-2022 00:00",
+      "createdAt": "2022-11-11T10:06:40.744Z",
+      "updatedAt": "2025-07-24T04:16:18.854Z",
+      "inspectionNo": "00048",
+      "lastInspectionDate": "20-09-2025 09:32",
+      "lastInspectionHub": "62f60f0d5b0b8d0b601c0778",
+      "tyres": [
+        {
+          "_id": "63775c4ebcd71b191a80966d",
+          "stencilNo": "C0114492519",
+          "totalKilometerTravelled": 0,
+          "position": "STP",
+          "averageNSD": "9.00",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "659502d09bf7b49cc06fed3d",
+          "stencilNo": "H2163534623",
+          "totalKilometerTravelled": 78375,
+          "averageNSD": "9.67",
+          "position": "RLI",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "65a36c6028ff75ce20d99fae",
+          "stencilNo": "H2123080124",
+          "totalKilometerTravelled": 54349,
+          "averageNSD": "7.83",
+          "position": "RLO",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66ebdd3d7ad582a9631b343f",
+          "stencilNo": "H2204123524",
+          "totalKilometerTravelled": 29191,
+          "averageNSD": "15.00",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "position": "DLI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66ebdd557ad582a9631b3825",
+          "stencilNo": "H2016023624",
+          "totalKilometerTravelled": 29191,
+          "averageNSD": "15.07",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "position": "DLO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67188dde88eb6e0b8915af2c",
+          "stencilNo": "H2145114124",
+          "totalKilometerTravelled": 26382,
+          "averageNSD": "14.17",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "position": "FL",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "674078b800cd8cac6550fcd7",
+          "stencilNo": "R0225763624",
+          "totalKilometerTravelled": 21315,
+          "averageNSD": "15.83",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "position": "RRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "674078d000cd8cac6550fdc6",
+          "stencilNo": "H2071314624",
+          "totalKilometerTravelled": 21315,
+          "averageNSD": "15.93",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "position": "RRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67518ff116b7b90644a9af3b",
+          "stencilNo": "H2089884724",
+          "totalKilometerTravelled": 21227,
+          "averageNSD": "16.67",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "position": "DRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67dea06a4e4c21cc5979ddb2",
+          "stencilNo": "C0179290225",
+          "totalKilometerTravelled": 10168,
+          "averageNSD": "17.00",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "position": "DRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6853ad346faa4c0bd3b25593",
+          "stencilNo": "H2318752425",
+          "totalKilometerTravelled": 1023,
+          "averageNSD": "16.43",
+          "lastInspectionDate": "2025-07-24T04:16:19.115Z",
+          "position": "FR",
+          "replacementWithoutInspection": false
+        }
+      ],
+      "GVW": "25",
+      "registrationYear": "2018",
+      "vehicleCC": "5600",
+      "averageRunKmPerDay": 400,
+      "enableReplacementWithoutInspection": false,
+      "agreementsInfo": [],
+      "fleet": {
+        "_id": "62fb81915b0b8d0b6020fe75",
+        "fleetName": "A TO Z LOGISTICS LIMITED (KHALILPUR)",
+        "averageRunKmPerDay": 400,
+        "enableReplacementWithoutInspection": false
+      },
+      "hub": {
+        "_id": "62f60f0d5b0b8d0b601c0778",
+        "hubName": "Dharuhera AtoZ"
+      },
+      "vehicleMake": {
+        "_id": "6385acca50e8a35aa213be29",
+        "make": "AL",
+        "makeName": "ASHOK LEYLAND  LTD.",
+        "makeImg": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1670044488688-ASHOK_LELAYND.gif",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:06.969Z",
+        "updatedAt": "2022-12-03T05:14:49.368Z",
+        "__v": 0
+      },
+      "configuration": {
+        "_id": "6385accd50e8a35aa213be82",
+        "name": "6X2 (10+1)",
+        "wheelCount": 11,
+        "tyrePositions": [
+          "FL",
+          "FR",
+          "DLO",
+          "DLI",
+          "DRO",
+          "DRI",
+          "RLO",
+          "RLI",
+          "RRO",
+          "RRI",
+          "STP"
+        ]
+      },
+      "model": {
+        "_id": "6385accd50e8a35aa213be80",
+        "name": "2518",
+        "make": "6385acca50e8a35aa213be29",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:09.924Z",
+        "updatedAt": "2022-11-29T06:55:09.924Z",
+        "__v": 0
+      },
+      "lastInspectionDateFromInspection": "2025-09-20T09:32:35.988Z",
+      "odometerReading": "329958",
+      "kilometerTravelled": "1410",
+      "bodyType": {
+        "_id": "6206091f5b52522414b6c179",
+        "name": "Container"
+      },
+      "applicationType": {
+        "_id": "620609975b52522414b6c187",
+        "name": "Long Distance"
+      },
+      "mechanicalCondition": {
+        "_id": "620608a35b52522414b6c16d",
+        "name": "OK",
+        "code": "OK8238"
+      },
+      "firstInspectionDate": "2022-06-14T00:00:00.000Z"
+    },
+    {
+      "_id": "636e1eaffe21d47b49513800",
+      "registrationNumber": "RJ10GB2930",
+      "contractType": {
+        "_id": "620608575b52522414b6c169",
+        "name": "CPKM"
+      },
+      "fitmentDate": "08-04-2022 00:00",
+      "createdAt": "2022-11-11T10:06:39.978Z",
+      "updatedAt": "2025-07-23T05:34:27.954Z",
+      "inspectionNo": "00038",
+      "lastInspectionDate": "21-08-2025 11:20",
+      "lastInspectionHub": "62f60f0d5b0b8d0b601c0778",
+      "tyres": [
+        {
+          "_id": "63775e74bcd71b191a8178df",
+          "stencilNo": "C0050123719",
+          "totalKilometerTravelled": 4481,
+          "position": "STP",
+          "averageNSD": "6.00",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6377713cbcd71b191a86b84b",
+          "stencilNo": "R0151850322",
+          "totalKilometerTravelled": 130121,
+          "position": "RRI",
+          "averageNSD": "8.17",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "637771dcbcd71b191a86e581",
+          "stencilNo": "H2272391122",
+          "totalKilometerTravelled": 124720,
+          "averageNSD": "7.50",
+          "position": "RLI",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "637771dcbcd71b191a86e599",
+          "stencilNo": "H2014401722",
+          "totalKilometerTravelled": 128461,
+          "position": "RRO",
+          "averageNSD": "7.67",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "637771fdbcd71b191a86eede",
+          "stencilNo": "H2292911622",
+          "totalKilometerTravelled": 114669,
+          "position": "RLO",
+          "averageNSD": "9.00",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "65c36c9a4704e92905f2a7b3",
+          "stencilNo": "H2287610324",
+          "totalKilometerTravelled": 51544,
+          "averageNSD": "12.00",
+          "position": "DLO",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "65c36cc34704e92905f2a9af",
+          "stencilNo": "R0029450224",
+          "totalKilometerTravelled": 52665,
+          "averageNSD": "12.10",
+          "position": "FR",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "65d388cee3b0d0e22a7d3501",
+          "stencilNo": "H2300980324",
+          "totalKilometerTravelled": 51544,
+          "averageNSD": "11.83",
+          "position": "DLI",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6603b1cd4c1c2146d0aa581f",
+          "stencilNo": "H2185890624",
+          "totalKilometerTravelled": 45168,
+          "averageNSD": "13.17",
+          "position": "FL",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "669232f9db2914be36e67a8d",
+          "stencilNo": "H2314602624",
+          "totalKilometerTravelled": 30567,
+          "averageNSD": "16.17",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "position": "DRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "669232fedb2914be36e67c23",
+          "stencilNo": "H2092392724",
+          "totalKilometerTravelled": 30567,
+          "averageNSD": "14.83",
+          "lastInspectionDate": "2025-07-23T05:34:28.196Z",
+          "position": "DRI",
+          "replacementWithoutInspection": false
+        }
+      ],
+      "GVW": "25",
+      "registrationYear": "2018",
+      "vehicleCC": "5600",
+      "engineNumber": "",
+      "averageRunKmPerDay": 400,
+      "enableReplacementWithoutInspection": false,
+      "agreementsInfo": [],
+      "fleet": {
+        "_id": "62fb81915b0b8d0b6020fe75",
+        "fleetName": "A TO Z LOGISTICS LIMITED (KHALILPUR)",
+        "averageRunKmPerDay": 400,
+        "enableReplacementWithoutInspection": false
+      },
+      "hub": {
+        "_id": "62f60f0d5b0b8d0b601c0778",
+        "hubName": "Dharuhera AtoZ"
+      },
+      "vehicleMake": {
+        "_id": "6385acca50e8a35aa213be29",
+        "make": "AL",
+        "makeName": "ASHOK LEYLAND  LTD.",
+        "makeImg": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1670044488688-ASHOK_LELAYND.gif",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:06.969Z",
+        "updatedAt": "2022-12-03T05:14:49.368Z",
+        "__v": 0
+      },
+      "configuration": {
+        "_id": "6385accd50e8a35aa213be82",
+        "name": "6X2 (10+1)",
+        "wheelCount": 11,
+        "tyrePositions": [
+          "FL",
+          "FR",
+          "DLO",
+          "DLI",
+          "DRO",
+          "DRI",
+          "RLO",
+          "RLI",
+          "RRO",
+          "RRI",
+          "STP"
+        ]
+      },
+      "model": {
+        "_id": "6385accd50e8a35aa213be80",
+        "name": "2518",
+        "make": "6385acca50e8a35aa213be29",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:09.924Z",
+        "updatedAt": "2022-11-29T06:55:09.924Z",
+        "__v": 0
+      },
+      "lastInspectionDateFromInspection": "2025-08-21T11:20:32.559Z",
+      "odometerReading": "421570",
+      "kilometerTravelled": "1387",
+      "bodyType": {
+        "_id": "6206091f5b52522414b6c179",
+        "name": "Container"
+      },
+      "applicationType": {
+        "_id": "620609975b52522414b6c187",
+        "name": "Long Distance"
+      },
+      "mechanicalCondition": {
+        "_id": "620608a35b52522414b6c16d",
+        "name": "OK",
+        "code": "OK8238"
+      },
+      "mechanicalConditionReason": {
+        "_id": "65828880a30f073003cfb1d1",
+        "name": "Suspension Problem",
+        "code": "SUSP5667"
+      },
+      "firstInspectionDate": "2022-04-08T00:00:00.000Z"
+    },
+    {
+      "_id": "636e1eb4fe21d47b49513896",
+      "registrationNumber": "NL01AD1149",
+      "contractType": {
+        "_id": "620608575b52522414b6c169",
+        "name": "CPKM"
+      },
+      "fitmentDate": "17-05-2022 00:00",
+      "createdAt": "2022-11-11T10:06:44.528Z",
+      "updatedAt": "2025-07-08T12:22:16.699Z",
+      "inspectionNo": "00042",
+      "lastInspectionDate": "19-09-2025 09:04",
+      "lastInspectionHub": "62f60f0d5b0b8d0b601c0778",
+      "tyres": [
+        {
+          "_id": "637771acbcd71b191a86d934",
+          "stencilNo": "H2243811722",
+          "totalKilometerTravelled": 158609,
+          "position": "STP",
+          "averageNSD": "5.33",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "637771dcbcd71b191a86e575",
+          "stencilNo": "H2055371022",
+          "totalKilometerTravelled": 161159,
+          "position": "RRI",
+          "averageNSD": "4.33",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "637771dcbcd71b191a86e591",
+          "stencilNo": "H2064041722",
+          "totalKilometerTravelled": 154817,
+          "position": "RRO",
+          "averageNSD": "8.50",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "661e24e1b50060fa1e22a325",
+          "stencilNo": "H2130800824",
+          "totalKilometerTravelled": 28161,
+          "averageNSD": "8.67",
+          "position": "RLO",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "661e24ffb50060fa1e22a600",
+          "stencilNo": "H2338100824",
+          "totalKilometerTravelled": 28161,
+          "averageNSD": "7.67",
+          "position": "RLI",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6673c324976a257ce6030e85",
+          "stencilNo": "H2186491024",
+          "totalKilometerTravelled": 25368,
+          "averageNSD": "8.67",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "position": "LL1",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6673c330976a257ce60311e7",
+          "stencilNo": "H2107720324",
+          "totalKilometerTravelled": 25368,
+          "averageNSD": "7.83",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "position": "FR",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "673c92cb6ae1059d0b9bcffa",
+          "stencilNo": "H2063324524",
+          "totalKilometerTravelled": 10679,
+          "averageNSD": "18.67",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "position": "DLO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "673c92d26ae1059d0b9bd056",
+          "stencilNo": "H2183134524",
+          "totalKilometerTravelled": 10679,
+          "averageNSD": "18.00",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "position": "DLI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67b4547b7062809bd80c4228",
+          "stencilNo": "H2229130525",
+          "totalKilometerTravelled": 2550,
+          "averageNSD": "18.50",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "position": "DRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67b4548c7062809bd80c447a",
+          "stencilNo": "H2386834924",
+          "totalKilometerTravelled": 4266,
+          "averageNSD": "19.00",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "position": "DRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67b454b47062809bd80c49f9",
+          "stencilNo": "C0018230225",
+          "totalKilometerTravelled": 4393,
+          "averageNSD": "15.50",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "position": "FL",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67b454b87062809bd80c4a24",
+          "stencilNo": "C0151630225",
+          "totalKilometerTravelled": 4393,
+          "averageNSD": "16.00",
+          "lastInspectionDate": "2025-07-08T12:22:16.038Z",
+          "position": "LR1",
+          "replacementWithoutInspection": false
+        }
+      ],
+      "GVW": "33",
+      "registrationYear": "2018",
+      "vehicleCC": "5800",
+      "averageRunKmPerDay": 400,
+      "enableReplacementWithoutInspection": false,
+      "agreementsInfo": [],
+      "fleet": {
+        "_id": "62fb81915b0b8d0b6020fe75",
+        "fleetName": "A TO Z LOGISTICS LIMITED (KHALILPUR)",
+        "averageRunKmPerDay": 400,
+        "enableReplacementWithoutInspection": false
+      },
+      "hub": {
+        "_id": "62f60f0d5b0b8d0b601c0778",
+        "hubName": "Dharuhera AtoZ"
+      },
+      "vehicleMake": {
+        "_id": "6385ace250e8a35aa213c125",
+        "make": "TML",
+        "makeName": "TATA MOTORS LTD.",
+        "makeImg": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1670044256425-TATA.png",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:30.909Z",
+        "updatedAt": "2022-12-03T05:10:57.497Z",
+        "__v": 0
+      },
+      "configuration": {
+        "_id": "6385ace750e8a35aa213c1bc",
+        "name": "8X2 - HAULAGE (12+1)",
+        "wheelCount": 13,
+        "tyrePositions": [
+          "FL",
+          "FR",
+          "DLO",
+          "DLI",
+          "DRO",
+          "DRI",
+          "RLO",
+          "RLI",
+          "RRO",
+          "RRI",
+          "LL1",
+          "LR1",
+          "STP"
+        ]
+      },
+      "model": {
+        "_id": "6385ace750e8a35aa213c1ba",
+        "name": "3118",
+        "make": "6385ace250e8a35aa213c125",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:35.482Z",
+        "updatedAt": "2022-11-29T06:55:35.482Z",
+        "__v": 0
+      },
+      "lastInspectionDateFromInspection": "2025-09-19T09:04:55.374Z",
+      "odometerReading": "527131",
+      "kilometerTravelled": "4093",
+      "bodyType": {
+        "_id": "6206091f5b52522414b6c179",
+        "name": "Container"
+      },
+      "applicationType": {
+        "_id": "620609975b52522414b6c187",
+        "name": "Long Distance"
+      },
+      "mechanicalCondition": {
+        "_id": "620608a35b52522414b6c16d",
+        "name": "OK",
+        "code": "OK8238"
+      },
+      "firstInspectionDate": "2022-05-17T00:00:00.000Z"
+    },
+    {
+      "_id": "636e1eb2fe21d47b49513842",
+      "registrationNumber": "HR55AC7812",
+      "contractType": {
+        "_id": "620608575b52522414b6c169",
+        "name": "CPKM"
+      },
+      "fitmentDate": "10-10-2022 00:00",
+      "createdAt": "2022-11-11T10:06:42.238Z",
+      "updatedAt": "2025-07-08T12:15:03.356Z",
+      "inspectionNo": "00042",
+      "lastInspectionDate": "31-08-2025 12:09",
+      "lastInspectionHub": "62f60f0d5b0b8d0b601c0778",
+      "tyres": [
+        {
+          "_id": "63777693bcd71b191a8809f7",
+          "stencilNo": "H2115843522",
+          "totalKilometerTravelled": 162832,
+          "position": "DRO",
+          "averageNSD": "8.03",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "63777693bcd71b191a8809fd",
+          "stencilNo": "H2253753522",
+          "totalKilometerTravelled": 162832,
+          "position": "DLO",
+          "averageNSD": "6.77",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "63777693bcd71b191a880a01",
+          "stencilNo": "H2305793122",
+          "totalKilometerTravelled": 162832,
+          "position": "DLI",
+          "averageNSD": "7.10",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6377782fbcd71b191a883e26",
+          "stencilNo": "H2234113422",
+          "totalKilometerTravelled": 162832,
+          "position": "RRI",
+          "averageNSD": "9.77",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6377782fbcd71b191a883e32",
+          "stencilNo": "H2034423322",
+          "totalKilometerTravelled": 162832,
+          "position": "RRO",
+          "averageNSD": "9.20",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6377782fbcd71b191a883e36",
+          "stencilNo": "H2212012922",
+          "totalKilometerTravelled": 162832,
+          "position": "DRI",
+          "averageNSD": "7.70",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "63777e00bcd71b191a88cf27",
+          "stencilNo": "L2078493617",
+          "totalKilometerTravelled": 0,
+          "position": "STP",
+          "averageNSD": "10.63",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "654b2aab850cad8a973c4166",
+          "stencilNo": "H2000084323",
+          "totalKilometerTravelled": 78051,
+          "averageNSD": "10.73",
+          "position": "FL",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66348c8a69f53a754fa77778",
+          "stencilNo": "R0204341624",
+          "totalKilometerTravelled": 52018,
+          "averageNSD": "11.10",
+          "position": "FR",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "663c6fc3cd40370382ea66d4",
+          "stencilNo": "H2112931824",
+          "totalKilometerTravelled": 49987,
+          "averageNSD": "10.67",
+          "position": "RLO",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "663c6fd5cd40370382ea6b26",
+          "stencilNo": "H2156651824",
+          "totalKilometerTravelled": 49987,
+          "averageNSD": "11.87",
+          "position": "RLI",
+          "lastInspectionDate": "2025-07-08T12:15:02.768Z",
+          "replacementWithoutInspection": false
+        }
+      ],
+      "GVW": "25",
+      "registrationYear": "2018",
+      "vehicleCC": "5800",
+      "averageRunKmPerDay": 400,
+      "enableReplacementWithoutInspection": false,
+      "agreementsInfo": [],
+      "fleet": {
+        "_id": "62fb81915b0b8d0b6020fe75",
+        "fleetName": "A TO Z LOGISTICS LIMITED (KHALILPUR)",
+        "averageRunKmPerDay": 400,
+        "enableReplacementWithoutInspection": false
+      },
+      "hub": {
+        "_id": "62f60f0d5b0b8d0b601c0778",
+        "hubName": "Dharuhera AtoZ"
+      },
+      "vehicleMake": {
+        "_id": "6385ace250e8a35aa213c125",
+        "make": "TML",
+        "makeName": "TATA MOTORS LTD.",
+        "makeImg": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1670044256425-TATA.png",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:30.909Z",
+        "updatedAt": "2022-12-03T05:10:57.497Z",
+        "__v": 0
+      },
+      "configuration": {
+        "_id": "6385ace650e8a35aa213c1a6",
+        "name": "6X2 (10+1)",
+        "wheelCount": 11,
+        "tyrePositions": [
+          "FL",
+          "FR",
+          "DLO",
+          "DLI",
+          "DRO",
+          "DRI",
+          "RLO",
+          "RLI",
+          "RRO",
+          "RRI",
+          "STP"
+        ]
+      },
+      "model": {
+        "_id": "6385ace650e8a35aa213c1a4",
+        "name": "2518",
+        "make": "6385ace250e8a35aa213c125",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:34.807Z",
+        "updatedAt": "2022-11-29T06:55:34.807Z",
+        "__v": 0
+      },
+      "lastInspectionDateFromInspection": "2025-08-31T12:09:18.471Z",
+      "odometerReading": "450830",
+      "kilometerTravelled": "1731",
+      "bodyType": {
+        "_id": "6206091f5b52522414b6c179",
+        "name": "Container"
+      },
+      "applicationType": {
+        "_id": "620609975b52522414b6c187",
+        "name": "Long Distance"
+      },
+      "mechanicalCondition": {
+        "_id": "620608a35b52522414b6c16d",
+        "name": "OK",
+        "code": "OK8238"
+      },
+      "firstInspectionDate": "2022-10-10T00:00:00.000Z"
+    },
+    {
+      "_id": "636e1eaefe21d47b495137ca",
+      "registrationNumber": "HR55AB0377",
+      "contractType": {
+        "_id": "620608575b52522414b6c169",
+        "name": "CPKM"
+      },
+      "fitmentDate": "05-07-2022 00:00",
+      "createdAt": "2022-11-11T10:06:38.382Z",
+      "updatedAt": "2025-06-18T03:52:08.851Z",
+      "inspectionNo": "00041",
+      "lastInspectionDate": "04-10-2025 11:07",
+      "lastInspectionHub": "62f60f0d5b0b8d0b601c0778",
+      "tyres": [
+        {
+          "_id": "63777052bcd71b191a867a59",
+          "stencilNo": "H2171101222",
+          "totalKilometerTravelled": 185500,
+          "position": "RLI",
+          "averageNSD": "5.67",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "637771fdbcd71b191a86eee8",
+          "stencilNo": "H2235011322",
+          "totalKilometerTravelled": 141908,
+          "position": "DLI",
+          "averageNSD": "7.33",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "6377723dbcd71b191a8700c4",
+          "stencilNo": "H2231902022",
+          "totalKilometerTravelled": 141908,
+          "position": "DLO",
+          "averageNSD": "8.00",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "63777974bcd71b191a88705a",
+          "stencilNo": "H2255164322",
+          "totalKilometerTravelled": 112099,
+          "averageNSD": "9.33",
+          "position": "RLO",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "63777e07bcd71b191a88d103",
+          "stencilNo": "C0212912118",
+          "totalKilometerTravelled": 3,
+          "position": "STP",
+          "averageNSD": "6.00",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66cf2688062439cb49d4b79d",
+          "stencilNo": "H2367133124",
+          "totalKilometerTravelled": 27682,
+          "averageNSD": "12.50",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "position": "FR",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66dbf714cf68fd3c19807681",
+          "stencilNo": "R0098193524",
+          "totalKilometerTravelled": 26143,
+          "averageNSD": "15.67",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "position": "DRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "66dbf756cf68fd3c19808013",
+          "stencilNo": "R0081583424",
+          "totalKilometerTravelled": 26143,
+          "averageNSD": "15.83",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "position": "RRO",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67a30c477663bc7b48dd119a",
+          "stencilNo": "H2366690325",
+          "totalKilometerTravelled": 9805,
+          "averageNSD": "15.00",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "position": "RRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "67a30c4b7663bc7b48dd11d1",
+          "stencilNo": "H2290180425",
+          "totalKilometerTravelled": 9805,
+          "averageNSD": "15.00",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "position": "DRI",
+          "replacementWithoutInspection": false
+        },
+        {
+          "_id": "683436d2a74b85b9e3a691d3",
+          "stencilNo": "H2309852025",
+          "totalKilometerTravelled": 641,
+          "averageNSD": "16.50",
+          "lastInspectionDate": "2025-06-18T03:51:49.789Z",
+          "position": "FL",
+          "replacementWithoutInspection": false
+        }
+      ],
+      "GVW": "25",
+      "registrationYear": "2018",
+      "vehicleCC": "5600",
+      "averageRunKmPerDay": 400,
+      "enableReplacementWithoutInspection": false,
+      "agreementsInfo": [],
+      "fleet": {
+        "_id": "62fb81915b0b8d0b6020fe75",
+        "fleetName": "A TO Z LOGISTICS LIMITED (KHALILPUR)",
+        "averageRunKmPerDay": 400,
+        "enableReplacementWithoutInspection": false
+      },
+      "hub": {
+        "_id": "62f60f0d5b0b8d0b601c0778",
+        "hubName": "Dharuhera AtoZ"
+      },
+      "vehicleMake": {
+        "_id": "6385ace250e8a35aa213c125",
+        "make": "TML",
+        "makeName": "TATA MOTORS LTD.",
+        "makeImg": "https://jk-fleet.s3.ap-south-1.amazonaws.com/1670044256425-TATA.png",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:30.909Z",
+        "updatedAt": "2022-12-03T05:10:57.497Z",
+        "__v": 0
+      },
+      "configuration": {
+        "_id": "6385ace650e8a35aa213c1a6",
+        "name": "6X2 (10+1)",
+        "wheelCount": 11,
+        "tyrePositions": [
+          "FL",
+          "FR",
+          "DLO",
+          "DLI",
+          "DRO",
+          "DRI",
+          "RLO",
+          "RLI",
+          "RRO",
+          "RRI",
+          "STP"
+        ]
+      },
+      "model": {
+        "_id": "6385ace650e8a35aa213c1a4",
+        "name": "2518",
+        "make": "6385ace250e8a35aa213c125",
+        "active": true,
+        "createdAt": "2022-11-29T06:55:34.807Z",
+        "updatedAt": "2022-11-29T06:55:34.807Z",
+        "__v": 0
+      },
+      "lastInspectionDateFromInspection": "2025-10-04T11:07:22.630Z",
+      "odometerReading": "186573",
+      "kilometerTravelled": "1890",
+      "bodyType": {
+        "_id": "6206091f5b52522414b6c179",
+        "name": "Container"
+      },
+      "applicationType": {
+        "_id": "620609975b52522414b6c187",
+        "name": "Long Distance"
+      },
+      "mechanicalCondition": {
+        "_id": "620608a35b52522414b6c16d",
+        "name": "OK",
+        "code": "OK8238"
+      },
+      "firstInspectionDate": "2022-07-05T00:00:00.000Z"
+    }
+  ]
+}

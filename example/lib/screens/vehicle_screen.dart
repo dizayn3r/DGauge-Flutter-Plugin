@@ -2,8 +2,6 @@ import 'dart:developer';
 
 import 'package:dgauge_flutter_example/bloc/vehicle_cubit.dart';
 import 'package:dgauge_flutter_example/bloc/vehicle_state.dart';
-import 'package:dgauge_flutter_example/screens/widgets/dgauge_selection.dart';
-import 'package:dgauge_flutter_example/screens/widgets/vehicle_selection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -31,7 +29,7 @@ class _VehicleScreenState extends State<VehicleScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Vehicle Details")),
+      appBar: AppBar(title: const Text("Vehicle Configuration")),
       body: const SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.all(16.0),

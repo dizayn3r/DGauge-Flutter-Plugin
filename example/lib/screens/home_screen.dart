@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dgauge_devices.dart';
+import 'tyre_positions_screen.dart';
+import 'vehicle_details_screen.dart';
 import 'vehicle_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -15,6 +17,8 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _screens = const [
     DgaugeDevices(),
     VehicleScreen(),
+    // TyrePositionsScreen(),
+    VehicleDetailsScreen(),
   ];
 
   void _onItemTapped(int index) {
@@ -38,6 +42,10 @@ class _HomeScreenState extends State<HomeScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.directions_car),
             label: 'Vehicles',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.circle_outlined),
+            label: 'Tyre Positions',
           ),
         ],
       ),
